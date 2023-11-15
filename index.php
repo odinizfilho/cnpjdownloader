@@ -7,7 +7,7 @@ ini_set('memory_limit', '3024M'); // Define o limite de memória para 1GB (ou ou
 
 require_once __DIR__ . '/vendor/autoload.php';
 
-use Cnpj\Downloader\RBFDownloader;
+use Cnpj\Downloader\RFBDownloader;
 
-$downloader = new RBFDownloader(__DIR__.'/download');
+$downloader = new RFBDownloader(__DIR__.'/download');
 $downloader->fetchFilesAndGenerateJSON();

@@ -5,7 +5,7 @@ namespace Cnpj\Downloader;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\RequestException;
 
-class RBFDownloader {
+class RFBDownloader {
     private $downloadFolder;
 
     public function __construct($downloadFolder) {
