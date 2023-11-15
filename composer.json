@@ -1,0 +1,23 @@
+{
+    "name": "odinizfilho/cnpjdownloader",
+    "description": "CNPJ",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Cnpj\\Downloader\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.1.0"
+    },
+    "authors": [
+        {
+            "name": "Gabriel Diniz"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.8",
+        "guzzlehttp/psr7": "^2.6"
+    }
+}
