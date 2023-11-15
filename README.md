@@ -11,7 +11,7 @@ Composer para gerenciar dependências (se você ainda não tiver instalado, cliq
 Instale CNPJDownloader com composer
 
 ```bash
-  composer require odinizfilho/cnpjdownloader
+  composer require odinizfilho/cnpjdownloader:dev-master
 ```
 ## Uso/Exemplos
 Aqui está como você pode usar o CNPJDownloader em seu projeto PHP:
